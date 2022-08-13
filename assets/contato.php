@@ -44,11 +44,13 @@
     <section class="home d-flex justify-content-center">
         <div class="row">
             <div class="col-md-12">
+                <h1 class="display-4">Entre em Contato</h1>
                 <div class="d-flex justify-content-center">
-                   <form method="POST">
-                        <input type="" name="" value=""><br>
-                        <input type="" name="" value=""><br>
-                        <textarea rows="6" cols="50"></textarea>
+                   <form class="form-control" method="POST">
+                        <input class="form-control" type="text" placeholder="Nome:" name="" value=""><br>
+                        <input class="form-control" type="email" placeholder="E-mail:" name="" value=""><br>
+                        <textarea class="form-control" placeholder="Mensagem" rows="6" cols="50"></textarea><br>
+                        <input class="btn btn-outline-info" type="submit" name="" value="Enviar">
                    </form>
                 </div>
             </div>
